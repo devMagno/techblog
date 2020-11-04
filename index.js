@@ -11,6 +11,12 @@ app.set('views', 'views')
 
 app.use(express.static(path.join(__dirname, 'public')))
 
+const connection = require('/config/connection.js')
+
 app.use(router)
 
-app.listen(3333);
+connection.sync().then(result => {
+    app.listen(3333)
+}).catch(error => {
+    console.log(error)
+})
