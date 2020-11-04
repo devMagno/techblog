@@ -16,7 +16,11 @@
 ---
 
 ## 🧰 Dependências
-
+- **[Body-Parser](https://www.npmjs.com/package/body-parser)**
+- **[EJS](https://ejs.co/) (Embedded JavaScript templating)**
+- **[Express](https://expressjs.com/pt-br/)**
+- **[Nodemon](https://nodemon.io/)**
+- **[SQLite](https://www.sqlite.org/index.html)**
 
 ---
 ## 🔧 Como executar o projeto
