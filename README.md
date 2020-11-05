@@ -1,3 +1,5 @@
+<h2 align="center">⚠️Projeto em desenvolvimento⚠️</h2>
+
 # TechBlog 💻
 
 ## 📖 Sobre   
@@ -24,8 +26,20 @@
 
 ---
 ## 🔧 Como executar o projeto
+```bash
+# Clone o repositório
+git clone https://github.com/devMagno/techblog
 
+# Entre no diretório
+cd techblog
 
+# Baixe as dependências do projeto
+npm i
+
+# Execute o servidor
+npm start
+```
+Feito isso, abra seu navegador favorito e acesse o endereço `http://127.0.0.1:3333/`
 
 ---
 
