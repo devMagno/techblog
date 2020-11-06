@@ -1,0 +1,21 @@
+<%- include('includes/head.ejs') %>
+
+    <div class="top-container">
+        <h1>Adicionar novo post</h1>
+    </div>
+
+    <form class="form">
+      <label for="title">Título</label>
+      <input type="text" name="title" id="title">
+      
+      <label for="description">Descrição</label>
+      <input type="text" name="description" id="description">
+
+      <label for="text">Texto</label>
+      <textarea name="text" id="text"></textarea>
+
+      <input type="submit" value="Adicionar" name="submitButton" class="submitButton">
+    </form>
+
+    
+<%- include('includes/footer.ejs') %>
