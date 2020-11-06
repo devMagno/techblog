@@ -17,6 +17,10 @@ const connection = require('./config/connection.js')
 
 app.use(router)
 
+app.use((req, res) => {
+    res.status(404).render('not-found', {title: 'Erro! - Techblog'})
+})
+
 connection.sync().then(result => {
     app.listen(3333)
 }).catch(error => {
