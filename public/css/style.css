@@ -127,6 +127,7 @@ button.submitButton:hover {
 }
 
 .header-single-post,
+.post-text {
     max-width: 960px;
     margin: 0 auto;
 }
@@ -145,4 +146,6 @@ button.submitButton:hover {
     padding: 0;
     line-height: 1.6;
 }
+.post-text {
+    margin-top: 30px;
 }
