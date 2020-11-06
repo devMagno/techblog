@@ -56,6 +56,10 @@ body {
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+.post-info {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 .footer {
     display: flex;
