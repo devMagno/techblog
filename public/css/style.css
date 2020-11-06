@@ -100,7 +100,7 @@ body {
 .form label {
     font-weight: bold;
 }
-input[type="submit"].submitButton {
+button.submitButton {
     margin-top: 1em;
     margin-bottom: 3em;
     cursor: pointer;
@@ -111,8 +111,13 @@ input[type="submit"].submitButton {
     background-color: #F3F3F3;
     transition: all .2s;
     height: auto;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
-input[type="submit"].submitButton:hover {
+button.submitButton:hover {
     color: #F3F3F3;
     background: #282828;
 }
