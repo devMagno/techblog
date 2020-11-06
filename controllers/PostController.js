@@ -24,3 +24,19 @@ exports.listAll = async (req, res) => {
     title: 'TechBlog'
   })
 }
+
+exports.listOne = async (req, res) => {
+
+  const { id } = req.params
+
+  const post = await Posts.findOne({
+    where: {
+      id: id
+    }
+  })
+  
+  res.render('single-post', {
+    post: post,
+    title: `${post.title} - TechBlog`
+  })
+}
