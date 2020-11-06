@@ -46,3 +46,13 @@ body {
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+    color: #F3F3F3;
+    text-align: center;
+    height: 60px;
+}
