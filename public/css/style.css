@@ -125,3 +125,12 @@ button.submitButton:hover {
     color: #F3F3F3;
     background: #282828;
 }
+
+.header-single-post {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.header-single-post span {
+    font-weight: 400;
+    font-size: 14px;
+}
