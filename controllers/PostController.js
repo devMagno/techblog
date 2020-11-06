@@ -1,4 +1,6 @@
 const Posts = require('../models/Posts.js')
+const Sequelize = require('sequelize')
+const Op = Sequelize.Op
 
 exports.add = async (req, res) => {
   res.render('add-post', {
@@ -39,4 +41,20 @@ exports.listOne = async (req, res) => {
     post: post,
     title: `${post.title} - TechBlog`
   })
+}
+
+exports.search = async (req, res) => {
+  const query = req.query.search
+  
+  const posts = await Posts.findAll({
+    where: {
+      title: { [Op.like]: `%${query}%`}
+    }
+  })
+
+  res.render('search', {
+    title: `Resultados de pesquisa por ${query} - Techblog`,
+    posts: posts
+  })
+
 }
