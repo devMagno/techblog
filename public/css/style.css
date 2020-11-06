@@ -66,3 +66,53 @@ body {
     text-align: center;
     height: 60px;
 }
+
+.form {
+    display: flex;
+    max-width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.form input {
+    height: 40px;
+}
+.form input,
+.form textarea {
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #333333;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+.form textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 58px;
+}
+.form label {
+    margin-bottom: .25em;
+}
+.form input + label {
+    margin-top: 1em;
+}
+.form label {
+    font-weight: bold;
+}
+input[type="submit"].submitButton {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    color: #282828;
+    background-color: #F3F3F3;
+    transition: all .2s;
+    height: auto;
+}
+input[type="submit"].submitButton:hover {
+    color: #F3F3F3;
+    background: #282828;
+}
