@@ -13,4 +13,6 @@ router.post('/posts/add', PostController.store)
 
 router.get('/posts/:id', PostController.listOne)
 
+router.get('/search', PostController.search)
+
 module.exports = router
