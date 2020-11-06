@@ -1,0 +1,19 @@
+<%- include('includes/head.ejs') %>
+
+    <div class="top-container">
+        <h1>Seus resultados de pesquisa</h1>
+    </div>
+
+    <div class="container">
+        <% if (posts.length > 0) { %>
+          <% for (let post of posts) { %>
+            <div class="blog-post">
+                <h3><%= post.title %></h3>
+                <p><%= post.description %></p>
+                <a href="/posts/<%= post.id %>">Acessar</a>
+            </div>
+        <% } } %>
+    </div>
+
+    
+<%- include('includes/footer.ejs') %>
