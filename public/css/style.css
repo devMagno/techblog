@@ -26,4 +26,23 @@ body {
     width: 100px;
     height: auto;
 }
+
+.top-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.top-container h1,
+.top-container img {
+    flex: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
