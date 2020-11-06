@@ -1,9 +1,15 @@
 <%- include('includes/head.ejs') %>
 
     <div class="top-container">
-        <h1>Página de Single Post</h1>
+        <h1><%= post.title %></h1>
+        <small><%= post.createdAt %></small>
+    </div>
 
-        <img src="/images/banner.png">
+    <div class="post-info">
+        <h4>Descrição:</h4>
+        <p><%= post.description %></p>
+
+        <p><%= post.text %></p>
     </div>
 
     
