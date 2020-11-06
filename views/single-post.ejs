@@ -1,8 +1,9 @@
 <%- include('includes/head.ejs') %>
 
-    <div class="top-container">
-        <h1><%= post.title %></h1>
-        <small><%= post.createdAt.toLocaleDateString() %></small>
+    <div class="header-single-post">
+        <h1><%= post.title %>
+            <span>Enviado <%= post.createdAt.toLocaleDateString() %></span>
+        </h1>
     </div>
 
     <div class="post-info">
