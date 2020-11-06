@@ -126,11 +126,23 @@ button.submitButton:hover {
     background: #282828;
 }
 
-.header-single-post {
+.header-single-post,
     max-width: 960px;
     margin: 0 auto;
 }
 .header-single-post span {
     font-weight: 400;
     font-size: 14px;
+}
+.post-info {
+    box-sizing: border-box;
+    background: rgba(33, 33, 33, 0.05);
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+.post-info h5 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 }
