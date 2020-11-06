@@ -1,5 +1,11 @@
 const Posts = require('../models/Posts.js')
 
+exports.add = async (req, res) => {
+  res.render('add-post', {
+    title:'Adicionar post - TechBlog'
+  })
+}
+
 exports.store = async (req, res) => {
   const post = await Posts.create({
     title: req.body.title,
