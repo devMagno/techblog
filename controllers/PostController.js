@@ -9,3 +9,12 @@ exports.store = async (req, res) => {
 
   res.redirect('/')
 }
+
+exports.listAll = async (req, res) => {
+  const posts = await Posts.findAll()
+  
+  res.render('home', {
+    posts: posts,
+    title: 'TechBlog'
+  })
+}
