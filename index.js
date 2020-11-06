@@ -11,7 +11,7 @@ app.set('views', 'views')
 
 app.use(express.static(path.join(__dirname, 'public')))
 
-const connection = require('/config/connection.js')
+const connection = require('./config/connection.js')
 
 app.use(router)
 
