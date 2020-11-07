@@ -78,6 +78,11 @@ body {
 .blog-post a:hover {
     text-decoration: underline;
 }
+.blog-post img {
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+}
 
 .footer {
     display: flex;
@@ -146,7 +151,8 @@ button.submitButton:hover {
 
 .header-single-post,
 .post-text,
-.post-info {
+.post-info,
+.post-img {
     max-width: 960px;
     margin: 0 auto;
 }
@@ -164,6 +170,11 @@ button.submitButton:hover {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+}
+.post-img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 .post-text {
     margin-top: 30px;
