@@ -9,8 +9,12 @@ exports.add = async (req, res) => {
 }
 
 exports.store = async (req, res) => {
+  const image = req.file.filename
+  const imgUrl = '/images/' + image
+
   const post = await Posts.create({
     title: req.body.title,
+    imgUrl: imgUrl,
     description: req.body.description,
     text: req.body.text
   })
