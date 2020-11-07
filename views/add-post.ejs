@@ -4,9 +4,14 @@
         <h1>Adicionar novo post</h1>
     </div>
 
-    <form class="form" method="POST" action="/posts/add">
+    <form class="form" method="POST" action="/posts/add" enctype="multipart/form-data">
       <label for="title">Título</label>
       <input type="text" name="title" id="title">
+
+      <div class="form-image">
+        <label for="image">Adicionar foto do post</label>
+        <input type="file" name="image" id="image">
+      </div>
       
       <label for="description">Descrição</label>
       <input type="text" name="description" id="description">
