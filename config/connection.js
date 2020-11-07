@@ -2,7 +2,7 @@ const Sequelize = require('sequelize')
 
 const connection = new Sequelize({
     dialect: 'sqlite',
-    storage: 'techblog.sqlite'
+    storage: 'techblogDB.sqlite'
 })
 
 module.exports = connection
