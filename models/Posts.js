@@ -21,6 +21,10 @@ const Posts = connection.define('posts', {
         type: DataTypes.STRING,
         allowNull: true
     },
+    text: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
     createdAt: {
         type: DataTypes.DATE,
         allowNull: false
