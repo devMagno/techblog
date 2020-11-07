@@ -4,6 +4,9 @@
         <h1><%= post.title %>
             <span>Enviado <%= post.createdAt.toLocaleDateString() %></span>
         </h1>
+        <div class="post-img">
+            <img src="<%= post.imgUrl %>">
+        </div>
     </div>
 
     <div class="post-info">
