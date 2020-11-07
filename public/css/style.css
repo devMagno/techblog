@@ -67,10 +67,18 @@ body {
     padding: 20px;
     transition: ease-in-out .2s;
 }
+.blog-post:hover {
+    box-shadow: 1px 1px 20px rgba(33, 33, 33, 0.2);
+    transform: scale(1.01);
+}
 .blog-post a {
     text-decoration: none;
     color: #282828;
 }
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
 .footer {
     display: flex;
     align-items: center;
