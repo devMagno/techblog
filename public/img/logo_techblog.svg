@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="125" viewBox="0 0 336 125">
+  <g id="Group_22" data-name="Group 22" transform="translate(-622 -977)">
+    <text id="TechBlog" transform="translate(830 1066)" fill="#282828" font-size="60" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-127.09" y="0">TechBlog</tspan></text>
+    <g id="Group_21" data-name="Group 21" transform="translate(0 7)">
+      <line id="Line_1" data-name="Line 1" y2="95" transform="translate(629.5 970)" fill="none" stroke="#ff6a1d" stroke-width="15"/>
+      <line id="Line_2" data-name="Line 2" y2="95" transform="translate(654.5 985)" fill="none" stroke="#ff6a1d" stroke-width="15"/>
+      <line id="Line_3" data-name="Line 3" y2="95" transform="translate(679.5 1000)" fill="none" stroke="#ff6a1d" stroke-width="15"/>
+    </g>
+  </g>
+</svg>
