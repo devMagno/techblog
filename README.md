@@ -1,6 +1,9 @@
 <h2 align="center">⚠️Projeto em desenvolvimento⚠️</h2>
 
 # TechBlog 💻
+<p align="center">
+<img src="public/img/logo_techblog.svg" alt="TechBlog" title="TechBlog">
+</p>
 
 ## 📖 Sobre   
 
