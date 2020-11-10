@@ -6,7 +6,7 @@
 </p>
 
 ## 📖 Sobre   
-
+O projeto **TechBlog** foi desenvolvido durante um tutorial feito pela **[Lara Carvalho](https://github.com/laracarvalho)** em seu canal do YouTube, com o intuito de aprender sobre Node.js. O projeto foi desenvolvido completamente do zero utilizando o padrão **MVC**, **EJS** para as views, **Node.js** para o Back-End e **SQLite3** para o banco de dados.
 
 ---
 
