@@ -1,3 +1,7 @@
 $main-orange: #FF6A1D;
 $dark-gray: #282828;
 $light-gray: #F3F3F3;
+
+@function em($pixel, $context: 16) {
+  @return $pixel / $context + em;
+}
