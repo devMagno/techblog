@@ -1,0 +1,15 @@
+.footer {
+  background-color: $dark-gray;
+  padding: 30px 10px;
+  text-align: center;
+  p {
+    @include typo(18);
+    color: $light-gray;
+    a {
+      color: $main-orange;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

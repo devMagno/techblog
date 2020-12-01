@@ -167,3 +167,23 @@ table {
     transform: translateY(10px);
   }
 }
+
+.footer {
+  background-color: #282828;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.footer p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+  color: #F3F3F3;
+}
+
+.footer p a {
+  color: #FF6A1D;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
+}
