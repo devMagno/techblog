@@ -35,6 +35,10 @@
       padding: 15px 20px;
       border-radius: 50px;
       display: inline-block;
+      transition: background-color .2s;
+      &:hover {
+        background-color: darken($main-orange, 8%);
+      }
     }
   }
   .hero-img {

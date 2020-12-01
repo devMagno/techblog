@@ -152,6 +152,11 @@ table {
   padding: 15px 20px;
   border-radius: 50px;
   display: inline-block;
+  transition: background-color .2s;
+}
+
+.hero .hero-text a:hover {
+  background-color: #f35300;
 }
 
 .hero .hero-img {
