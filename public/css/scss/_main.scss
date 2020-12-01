@@ -1,0 +1,43 @@
+.hero {
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  .hero-text {
+    padding: 0 10px;
+    max-width: 400px;
+    &::after {
+      content: '↓';
+      color: $main-orange;
+      margin-left: 15px;
+      font-size: 30px;
+    }
+    h1 {
+      @include typo(36);
+      line-height: 1;
+      color: $dark-gray;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+    p {
+      @include typo(18);
+      color: $gray;
+      margin-bottom: 70px;
+    }
+    a {
+      @include typo(18);
+      font-weight: bold;
+      color: white;
+      background-color: $main-orange;
+      padding: 15px 20px;
+      border-radius: 50px;
+      display: inline-block;
+    }
+  }
+  .hero-img {
+    padding: 0 10px;
+    max-width: 467px;
+  }
+}
+
