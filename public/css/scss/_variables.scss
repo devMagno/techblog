@@ -9,3 +9,8 @@ $light-gray: #F3F3F3;
 @function em($pixel, $context: 16) {
   @return $pixel / $context + em;
 }
+
+@mixin typo($size) {
+  font-family: $font;
+  font-size: em($size);
+}
