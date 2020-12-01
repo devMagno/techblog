@@ -11,4 +11,25 @@
       max-width: 200px;
     }
   }
+  .search {
+    padding: 10px;
+    position: relative;
+    .search-label {
+      position: absolute;
+      top: 17px;
+      left: 16px;
+    }
+    .search-input {
+      padding: 7px 10px 7px 30px;
+      outline: none;
+      border: 2px solid $dark-gray;
+      border-radius: 20px;
+      @include typo(16);
+      color: $dark-gray;
+      transition: border .2s;
+      &:hover, &:focus {
+        border: 2px solid $main-orange;
+      }
+    }
+  }
 }
