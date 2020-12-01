@@ -1,0 +1,31 @@
+.top-container {
+  margin: 0 auto;
+  padding: 40px 0;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .container-text {
+    text-align: center;
+    margin-bottom: 30px;
+    h1 {
+      @include typo(30);
+      color: $dark-gray;
+      font-weight: bold;
+    }
+    p {
+      margin-top: 12px;
+      @include typo(16);
+      color: $dark-gray;
+      a {
+        color: $main-orange;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  img {
+    max-width: 600px;
+  }
+}

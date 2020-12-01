@@ -173,6 +173,46 @@ table {
   }
 }
 
+.top-container {
+  margin: 0 auto;
+  padding: 40px 0;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-container .container-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.top-container .container-text h1 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.875em;
+  color: #282828;
+  font-weight: bold;
+}
+
+.top-container .container-text p {
+  margin-top: 12px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #282828;
+}
+
+.top-container .container-text p a {
+  color: #FF6A1D;
+}
+
+.top-container .container-text p a:hover {
+  text-decoration: underline;
+}
+
+.top-container img {
+  max-width: 600px;
+}
+
 .footer {
   background-color: #282828;
   padding: 30px 10px;
