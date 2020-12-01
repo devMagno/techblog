@@ -1,8 +1,17 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -94,4 +103,67 @@ table {
 
 .header .search .search-input:hover, .header .search .search-input:focus {
   border: 2px solid #FF6A1D;
+}
+
+.hero {
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .hero-text {
+  padding: 0 10px;
+  max-width: 400px;
+}
+
+.hero .hero-text::after {
+  content: '↓';
+  color: #FF6A1D;
+  margin-left: 15px;
+  font-size: 30px;
+  animation: arrow .9s linear 0s infinite alternate;
+  display: inline-block;
+}
+
+.hero .hero-text h1 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 2.25em;
+  line-height: 1;
+  color: #282828;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.hero .hero-text p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+  color: #707070;
+  margin-bottom: 70px;
+}
+
+.hero .hero-text a {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6A1D;
+  padding: 15px 20px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.hero .hero-img {
+  padding: 0 10px;
+  max-width: 467px;
+}
+
+@keyframes arrow {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
 }

@@ -12,6 +12,8 @@
       color: $main-orange;
       margin-left: 15px;
       font-size: 30px;
+      animation: arrow .9s linear 0s infinite alternate;
+      display: inline-block;
     }
     h1 {
       @include typo(36);
@@ -41,3 +43,11 @@
   }
 }
 
+@keyframes arrow {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
