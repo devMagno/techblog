@@ -1,22 +1,28 @@
 <%- include('includes/head.ejs') %>
 
-    <div class="top-container">
-        <h1>Seu portal de notícias de tecnologia favorito</h1>
-
-        <img src="/img/banner.png">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Seu portal de notícias de tecnologia favorito.</h1>
+      <p>Descubra toda semana uma novidade imperdível do mundo da tecnologia!</p>
     </div>
-
-    <div class="container">
-        <% if (posts.length > 0) { %>
-          <% for (let post of posts) { %>
-            <div class="blog-post">
-                <img src="<%= post.imgUrl %>" class="post-img">
-                <h3><%= post.title %></h3>
-                <p><%= post.description %></p>
-                <a href="/posts/<%= post.id %>">Acessar</a>
-            </div>
-        <% } } %>
+    <div class="hero-img">
+      <img src="/img/hero.svg">
     </div>
+  </section>
+
+  <main class="posts-container">
+    <% if (posts.length > 0) { %>
+      <% for (let post of posts) { %>
+        <div class="blog-post">
+          <div class="post-img">
+            <img src="<%= post.imgUrl %>">
+          </div>
+          <h3 class="post-title"><%= post.title %></h3>
+          <p class="post-description"><%= post.description %></p>
+          <a href="/posts/<%= post.id %>" class="post-button">Acessar</a>
+        </div>
+    <% } } %>
+  </main>
 
     
 <%- include('includes/footer.ejs') %>
