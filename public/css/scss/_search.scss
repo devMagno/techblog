@@ -1,6 +1,6 @@
 .top-container {
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 10px;
   max-width: 960px;
   display: flex;
   flex-direction: column;
@@ -23,9 +23,12 @@
           text-decoration: underline;
         }
       }
+      span {
+        font-weight: 700;
+      }
     }
   }
-  img {
+  .container-img {
     max-width: 600px;
   }
 }

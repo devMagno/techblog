@@ -175,7 +175,7 @@ table {
 
 .top-container {
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 10px;
   max-width: 960px;
   display: flex;
   flex-direction: column;
@@ -209,7 +209,11 @@ table {
   text-decoration: underline;
 }
 
-.top-container img {
+.top-container .container-text p span {
+  font-weight: 700;
+}
+
+.top-container .container-img {
   max-width: 600px;
 }
 
