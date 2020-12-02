@@ -1,22 +1,21 @@
 <%- include('includes/head.ejs') %>
 
-    <div class="header-single-post">
-        <h1><%= post.title %>
-            <span>Enviado <%= post.createdAt.toLocaleDateString() %></span>
-        </h1>
-        <div class="post-img">
-            <img src="<%= post.imgUrl %>">
-        </div>
+  <div class="post-container">
+    <div class="single-post-header">
+      <div class="single-post-info">
+        <h1 class="single-post-title"><%= post.title %></h1>
+        <p class="single-post-description"><%= post.description %></p>
+        <span class="single-post-date"><%= post.createdAt.toLocaleDateString() %></span>
+      </div>
+      <div class="post-img">
+        <img src="<%= post.imgUrl %>">
+      </div>
     </div>
-
-    <div class="post-info">
-        <h5>Descrição:</h5>
-        <p><%= post.description %></p>
+    
+    <div class="single-post-text">
+      <p><%= post.text %></p>
     </div>
-
-    <div class="post-text">
-        <p><%= post.text %></p>
-    </div>
+  </div>
 
     
 <%- include('includes/footer.ejs') %>
