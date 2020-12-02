@@ -279,6 +279,7 @@ table {
 }
 
 .footer {
+  margin-top: 30px;
   background-color: #282828;
   padding: 30px 10px;
   text-align: center;
