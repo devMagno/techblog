@@ -168,6 +168,61 @@ table {
   max-width: 467px;
 }
 
+.posts-container {
+  padding: 20px;
+  max-width: 965px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.posts-container .blog-post {
+  margin: 15px;
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 350px;
+  background-color: #F3F3F3;
+  box-shadow: 0px 5px 6px rgba(33, 33, 33, 0.15);
+  border-radius: 6px;
+  padding: 20px;
+  color: #282828;
+  transition: transform ease-in-out .2s, box-shadow ease-in-out .2s;
+}
+
+.posts-container .blog-post:hover {
+  box-shadow: 0px 10px 15px rgba(33, 33, 33, 0.2);
+  transform: scale(1.01);
+}
+
+.posts-container .blog-post .post-title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.posts-container .blog-post .post-description {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.posts-container .blog-post .post-button {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #FF6A1D;
+}
+
+.posts-container .blog-post .post-button:hover {
+  text-decoration: underline;
+}
+
 @keyframes arrow {
   from {
     transform: translateY(0);
