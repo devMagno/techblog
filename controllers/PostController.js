@@ -58,6 +58,7 @@ exports.search = async (req, res) => {
 
   res.render('search', {
     title: `Resultados de pesquisa por ${query} - Techblog`,
+    search: query,
     posts: posts
   })
 
