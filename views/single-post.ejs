@@ -5,7 +5,7 @@
       <div class="single-post-info">
         <h1 class="single-post-title"><%= post.title %></h1>
         <p class="single-post-description"><%= post.description %></p>
-        <span class="single-post-date"><%= post.createdAt.toLocaleDateString() %></span>
+        <span class="single-post-date">Publicado em <%= post.createdAt.toLocaleDateString() %></span>
       </div>
       <div class="post-img">
         <img src="<%= post.imgUrl %>">
