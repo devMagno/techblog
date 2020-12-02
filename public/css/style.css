@@ -278,6 +278,46 @@ table {
   max-width: 600px;
 }
 
+.post-container {
+  max-width: 960px;
+  padding: 30px 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-container .single-post-header {
+  margin-bottom: 40px;
+}
+
+.post-container .single-post-header .single-post-title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  color: #282828;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.post-container .single-post-header .single-post-description {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #707070;
+  margin-bottom: 20px;
+}
+
+.post-container .single-post-header .single-post-date {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  display: block;
+  line-height: 1.2;
+  color: #707070;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
 .footer {
   margin-top: 30px;
   background-color: #282828;

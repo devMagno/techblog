@@ -1,0 +1,32 @@
+.post-container {
+  max-width: 960px;
+  padding: 30px 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .single-post-header {
+    margin-bottom: 40px;
+    .single-post-title {
+      @include typo(40);
+      color: $dark-gray;
+      font-weight: bold;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+    .single-post-description {
+      @include typo(16);
+      line-height: 1.5;
+      color: $gray;
+      margin-bottom: 20px;
+    }
+    .single-post-date {
+      @include typo(16);
+      display: block;
+      line-height: 1.2;
+      color: $gray;
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+  }
+}
