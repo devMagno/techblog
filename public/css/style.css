@@ -203,6 +203,7 @@ table {
   font-size: 1.125em;
   font-weight: bold;
   margin: 10px 0;
+  line-height: 1.2;
 }
 
 .posts-container .blog-post .post-description {
@@ -210,6 +211,7 @@ table {
   font-size: 1em;
   margin-bottom: 20px;
   flex: 1;
+  line-height: 1.3;
 }
 
 .posts-container .blog-post .post-button {
