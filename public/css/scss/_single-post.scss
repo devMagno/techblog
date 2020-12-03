@@ -33,5 +33,10 @@
       border-radius: 16px;
     }
   }
+  .single-post-text {
+    max-width: 700px;
+    color: $dark-gray;
+    @include typo(20);
+    line-height: 1.5;
   }
 }
