@@ -225,6 +225,30 @@ table {
   text-decoration: underline;
 }
 
+.btn-container {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container a {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+  background-color: #FF6A1D;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 50px;
+  transition: background-color .2s;
+}
+
+.btn-container a:hover {
+  background-color: #f35300;
+}
+
 @keyframes arrow {
   from {
     transform: translateY(0);

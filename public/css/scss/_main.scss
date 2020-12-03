@@ -93,6 +93,26 @@
     }
   }
 }
+.btn-container {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  a {
+    @include typo(20);
+    background-color: $main-orange;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 50px;
+    transition: background-color .2s;
+    &:hover {
+      background-color: darken($main-orange, 8%);
+    }
+  }
+}
 
 @keyframes arrow {
   from {
