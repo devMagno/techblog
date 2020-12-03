@@ -5,6 +5,9 @@
   flex-wrap: wrap;
   max-width: 960px;
   margin: 0 auto;
+  @include device(small) {
+    flex-direction: column;
+  }
   .logo {
     padding: 10px;
     img {

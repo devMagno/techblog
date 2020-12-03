@@ -75,6 +75,12 @@ table {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 560px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
 .header .logo {
   padding: 10px;
 }
