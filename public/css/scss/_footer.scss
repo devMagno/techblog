@@ -5,6 +5,7 @@
   text-align: center;
   p {
     @include typo(18);
+    line-height: 1.5;
     color: $light-gray;
     a {
       color: $main-orange;

@@ -365,6 +365,7 @@ table {
 .footer p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.125em;
+  line-height: 1.5;
   color: #F3F3F3;
 }
 
