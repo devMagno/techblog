@@ -288,6 +288,7 @@ table {
 }
 
 .post-container .single-post-header {
+  max-width: 700px;
   margin-bottom: 40px;
 }
 
@@ -318,6 +319,9 @@ table {
   font-weight: bold;
 }
 
+.post-container .single-post-header .post-img img {
+  border-radius: 16px;
+}
 .footer {
   margin-top: 30px;
   background-color: #282828;
