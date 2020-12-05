@@ -48,6 +48,11 @@
             background-color: darken($main-orange, 8%);
           }
         }
+        .image-name {
+          @include typo(12);
+          margin-left: 10px;
+          color: $dark-gray;
+        }
       }
     }
     .input-container + .input-container {
