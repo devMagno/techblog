@@ -29,5 +29,14 @@
       </form>
     </div>
 
+    <script>
+    var input = document.querySelector('#image'),
+    imageName = document.querySelector('#image-name');
+
+    input.addEventListener('change', function() {
+      imageName.textContent = this.value;
+    });
+    </script>
+
     
 <%- include('includes/footer.ejs') %>
