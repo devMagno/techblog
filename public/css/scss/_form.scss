@@ -1,0 +1,75 @@
+.form-container {
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto 80px;
+  .form {
+    display: flex;
+    flex-direction: column;
+    .input-container {
+      flex: 1;
+      label {
+        @include typo(22);
+        color: $dark-gray;
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+      input, textarea {
+        outline: none;
+        @include typo(22);
+        color: $dark-gray;
+        padding: 15px;
+        width: calc(100% - 30px);
+        border: 2px solid transparent;
+        background-color: $light-gray;
+        border-radius: 16px;
+        transition: border .2s;
+        &:hover, &:focus {
+          border: 2px solid $main-orange;
+        }
+      }
+      textarea {
+        resize: vertical;
+        min-height: 93.2px;
+      }
+      &.image-input {
+        input {
+          display: none;
+        }
+        label {
+          color: white;
+          background: $main-orange;
+          padding: 15px;  
+          border-radius: 50px;
+          text-align: center;
+          cursor: pointer;
+          transition: background-color .2s;
+          &:hover {
+            background-color: darken($main-orange, 8%);
+          }
+        }
+      }
+    }
+    .input-container + .input-container {
+      margin-top: 30px;
+    }
+    .submitButton {
+      color: white;
+      @include typo(30);
+      font-weight: bold;
+      text-align: center;
+      background: $dark-gray;
+      padding: 20px;  
+      border-radius: 50px;
+      width: 100%;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      transition: background-color .2s;
+      margin: 40px auto 0;
+      &:hover {
+        background-color: lighten($dark-gray, 10%);
+      }
+    }
+  }
+}

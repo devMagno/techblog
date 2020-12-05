@@ -383,6 +383,95 @@ table {
   line-height: 1.5;
 }
 
+.form-container {
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto 80px;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container .form .input-container {
+  flex: 1;
+}
+
+.form-container .form .input-container label {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.375em;
+  color: #282828;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.form-container .form .input-container input, .form-container .form .input-container textarea {
+  outline: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.375em;
+  color: #282828;
+  padding: 15px;
+  width: calc(100% - 30px);
+  border: 2px solid transparent;
+  background-color: #F3F3F3;
+  border-radius: 16px;
+  transition: border .2s;
+}
+
+.form-container .form .input-container input:hover, .form-container .form .input-container input:focus, .form-container .form .input-container textarea:hover, .form-container .form .input-container textarea:focus {
+  border: 2px solid #FF6A1D;
+}
+
+.form-container .form .input-container textarea {
+  resize: vertical;
+  min-height: 93.2px;
+}
+
+.form-container .form .input-container.image-input input {
+  display: none;
+}
+
+.form-container .form .input-container.image-input label {
+  color: white;
+  background: #FF6A1D;
+  padding: 15px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.form-container .form .input-container.image-input label:hover {
+  background-color: #f35300;
+}
+
+.form-container .form .input-container + .input-container {
+  margin-top: 30px;
+}
+
+.form-container .form .submitButton {
+  color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.875em;
+  font-weight: bold;
+  text-align: center;
+  background: #282828;
+  padding: 20px;
+  border-radius: 50px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color .2s;
+  margin: 40px auto 0;
+}
+
+.form-container .form .submitButton:hover {
+  background-color: #424242;
+}
+
 .footer {
   margin-top: 30px;
   background-color: #282828;
