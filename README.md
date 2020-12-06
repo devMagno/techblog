@@ -12,7 +12,8 @@ O projeto **TechBlog** foi desenvolvido durante um tutorial feito pela **[Lara C
 
 ## 🚀 Tecnologias e ferramentas utilizadas
 - **HTML5**
-- **CSS3**
+- **SCSS** (convertido para CSS3)
+- **Scout App** (compilador de Sass)
 - **JavaScript**
 - **Node.js**
 - **SQLite**
