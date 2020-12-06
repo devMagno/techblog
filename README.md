@@ -19,7 +19,7 @@ O projeto **TechBlog** foi desenvolvido durante um tutorial feito pela **[Lara C
 ---
 
 ## 🖥️ Demonstração
-
+![TechBlog | Seu portal de notícias de tecnologia favorito.](https://i.imgur.com/gG1d4NL.jpg "TechBlog | Seu portal de notícias de tecnologia favorito.")
 
 ---
 
