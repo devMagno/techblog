@@ -1,12 +1,10 @@
-<h2 align="center">⚠️Projeto em desenvolvimento⚠️</h2>
-
 # TechBlog 💻
 <p align="center">
 <img src="public/img/logo_techblog.svg" alt="TechBlog" title="TechBlog">
 </p>
 
 ## 📖 Sobre   
-O projeto **TechBlog** foi desenvolvido durante um tutorial feito pela **[Lara Carvalho](https://github.com/laracarvalho)** em seu canal do YouTube, com o intuito de aprender sobre Node.js. O projeto foi desenvolvido completamente do zero utilizando o padrão **MVC**, **EJS** para as views, **Node.js** para o Back-End e **SQLite3** para o banco de dados, o projeto também conta com armazenamento de imagens utilizando **Multer**, **URLs amigáveis**, além de ter sido feito um redesign do projeto original.
+O projeto **TechBlog** foi desenvolvido durante um tutorial feito pela **[Lara Carvalho](https://github.com/laracarvalho)** em seu canal do YouTube, com o intuito de aprender sobre Node.js. O projeto foi desenvolvido completamente do zero utilizando o padrão **MVC**, **EJS** para as views, **Node.js** para o Back-End e **SQLite3** para o banco de dados, o projeto também conta com armazenamento de imagens utilizando **Multer**, **URLs amigáveis**, além de ter realizado um **redesign** do projeto original utilizando o pré-processador **SCSS**.
 
 ---
 
